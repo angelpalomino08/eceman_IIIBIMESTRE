@@ -1,0 +1,123 @@
+:root {
+    --moradito: #310A90;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {   
+    height: 100vh;
+    width: 100%; 
+    background: var(--gradient, radial-gradient(41.85% 33.13% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%));
+}
+
+.encabezado {
+    display: flex;
+    padding: 24px 128px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--primary, #310A90);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38.832px; /* 161.8% */
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hola {
+    color: var(--primary, #310A90);
+
+    /* BUTTON */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.652px; /* 161.8% */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.atex {
+    color: var(--white, #FFF);
+
+    /* BUTTON */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.652px; /* 161.8% */
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.boton {
+    border-radius: 4px;
+    border: 2px solid var(--primary, #310A90);
+    background: var(--primary, #310A90);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 49px;
+    width: 153px;
+}
+
+.texto1 {
+    color: var(--primary, #310A90);
+
+    /* Headline 5 */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.832px; /* 161.8% */
+}
+
+.texto2 {
+    color: var(--primary, #310A90);
+
+    /* Headline 2 */
+    font-family: Poppins;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95.462px; /* 161.8% */
+    letter-spacing: -0.295px;
+}
+
+.texto3 {
+    color: var(--primary, #310A90);
+
+    /* Body 1 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.888px; /* 161.8% */
+    letter-spacing: 0.08px;
+}
+
+.texto_logo_edit {
+    border-radius: 4px;
+    border: 2px solid var(--primary, #310A90);
+    background: var(--white, #FFF); 
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
